@@ -29,5 +29,6 @@ public class FaceService {
         // scaleFactor=1.05, minNeighbors=3, minSize configurable
         faceDetector.detectMultiScale(gray, faces, 1.05, 3, 0, minSize, new Size());
         return faces;
+
     }
 }
